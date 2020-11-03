@@ -29,8 +29,8 @@ int main()
 			y = a - b;
 		}
 		cout << "Result: " << y << endl;
-		cout << "c = "; cin >> c;
-	} while (c==1);
+		cout << "Want to continue?(Yes/No)"; cin >> c;
+	} while (c=="Yes");
 	cout << endl;
 	cin.get();
 	return 0;
